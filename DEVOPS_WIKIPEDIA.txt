@@ -1,0 +1,114 @@
+DevOps (a clipped compound of "development" and "operations") is a software engineering practice that 
+aims at unifying software development (Dev) and software operation (Ops). 
+The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, 
+from integration, testing, releasing to deployment and infrastructure management. 
+DevOps aims at shorter development cycles, increased deployment frequency, more dependable releases, in close alignment with business objectives.
+At the 2008 Agile Toronto conference, Andrew Shafer and Patrick Debois introduced the term in their talk on "Agile Infrastructure"
+From 2009, the DevOps term has been steadily promoted and brought into more mainstream usage through a series of "devopsdays", 
+which started in Belgium and has now spread to other countries too
+The term DevOps has been used in multiple different contexts.
+A definition proposed by Bass, Weber, and Zhu, is:
+DevOps is a set of practices intended to reduce the time between committing a change to a system and the change being placed into normal production, 
+while ensuring high quality
+In recent years, more tangential DevOps initiatives have also evolved, such as OpsDev, WinOps, and BizDevOps.
+As DevOps is intended to be a cross-functional mode of working, rather than a single DevOps tool there are sets (or "toolchains") of multiple tools. 
+Such DevOps tools are expected to fit into one or more of these categories, reflective of key aspects of the development and delivery process:
+Code — code development and review, source code management tools, code merging
+Build — continuous integration tools, build status
+Test — continuous testing tools that provide feedback on business risks
+Package — artifact repository, application pre-deployment staging
+Release — change management, release approvals, release automation
+Configure — infrastructure configuration and management, Infrastructure as Code tools
+Monitor — applications performance monitoring, end–user experience
+Some categories are more essential in a DevOps toolchain than others; especially 
+continuous integration (e.g. Jenkins) and infrastructure as code (e.g. Puppet).
+The need for DevOps arose from the increasing success of agile software development, 
+as that led to organizations wanting to release their software faster and more frequently. 
+As they sought to overcome the strain this put on their release management processes, 
+they had to adopt patterns such as application release automation, continuous integration tools, and continuous delivery.
+Continuous delivery and DevOps have common goals and are often used in conjunction, but there are subtle differences.
+While continuous delivery is focused on automating the processes in software delivery, 
+DevOps also focuses on the organization change to support great collaboration between the many functions involved.
+DevOps and continuous delivery share a common background in agile methods and lean thinking: 
+small and frequent changes with focused value to the end customer. 
+They are well communicated and collaborated internally, thus helping achieve faster time to market, with reduced risks.
+The application of continuous delivery and DevOps to data analytics has been termed DataOps. 
+DataOps seeks to integrate data engineering, data integration, data quality, data security, and data privacy with operations.
+It applies principles from DevOps, Agile Development and the statistical process control, used in lean manufacturing, 
+to improve the cycle time of extracting value from data analytics
+Site reliability engineering
+In 2003, Google developed site reliability engineering, 
+a new approach for releasing new features continuously into large-scale high-availability systems while maintaining high-quality end user experience.
+While SRE predates the development of DevOps, they are generally viewed as independent trends.
+Some aspects of DevOps have taken a similar approach
+Systems administration
+DevOps is often viewed as an approach to applying systems administration work to cloud technology
+The goals of DevOps span the entire delivery pipeline. They include:
+Improved deployment frequency;
+Faster time to market;
+Lower failure rate of new releases;
+Shortened lead time between fixes;
+Faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system).
+Simple processes become increasingly programmable and dynamic, using a DevOps approach
+DevOps aims to maximize the predictability, efficiency, security, and maintainability of operational processes. Very often, automation supports this objective.
+DevOps integration targets product delivery, continuous testing, quality testing, feature development, and maintenance 
+releases in order to improve reliability and security and provide faster development and deployment cycles. 
+Many of the ideas (and people) involved in DevOps came from the enterprise systems management and agile software development movements.
+Views on the benefits claimed for DevOps
+Companies that practice DevOps have reported significant benefits, including: 
+significantly shorter time to market, improved customer satisfaction, better product quality, more reliable releases, improved productivity and efficiency, 
+and the increased ability to build the right product by fast experimentation
+However, a study released in January 2017 by F5 of almost 2,200 IT executives and industry professionals found that only one in five surveyed think 
+DevOps had a strategic impact on their organization despite rise in usage. 
+The same study found that only 17% identified DevOps as key, well below software as a service (42%), big data (41%) and public cloud infrastructure as a service (39%)
+Cultural change
+This section contains wording that promotes the subject in a subjective manner without imparting real information. 
+Please remove or replace such wording and instead of making proclamations about a subject's importance, use facts and attribution to demonstrate that importance. 
+DevOps is more than just a tool or a process change; it inherently requires an organizational culture shift. 
+This cultural change is especially difficult, because of the conflicting nature of departmental roles:
+Operations — seeks organizational stability
+Developers — seek change
+Testers — seek risk reduction
+Getting these groups to work cohesively is a critical challenge in enterprise DevOps adoption.
+DevOps as a job title
+While DevOps describes an approach to work rather than a distinct role (like system administrator), 
+job advertisements are increasingly using terms like "DevOps Engineer".
+While DevOps reflects complex topics, the DevOps community uses analogies to communicate important concepts, 
+much like "The Cathedral and the Bazaar" from the open source community
+Cattle & Pets: the paradigm of disposable server infrastructure
+10 deployments per day: the story of Flickr adopting DevOps
+Building a DevOps culture
+DevOps T-shirt worn at a computer conference.
+DevOps principles demand strong interdepartmental communication—team-building and other employee engagement activities are 
+often used—to create an environment that fosters this communication and cultural change, within an organization.
+Team–building activities can include board games, trust activities, and employee engagement seminars.
+Deployment
+Companies with very frequent releases may require a DevOps awareness or orientation program. 
+For example, the company that operates the image hosting website Flickr developed a DevOps approach, 
+to support a business requirement of ten deployments per day;
+this daily deployment cycle would be much higher at organizations producing multi-focus or multi-function applications. 
+This is referred to as continuous deployment or continuous delivery and has been associated with the lean startup methodology.
+Working groups, professional associations and blogs have formed on the topic since 2009.
+DevOps and architecture
+To practice DevOps effectively, software applications have to meet a set of architecturally significant requirements (ASRs), 
+such as: deployability, modifiability, testability, and monitorability. These ASRs require a high priority and cannot be traded off lightly.
+Although in principle it is possible to practice DevOps with any architectural style, 
+the microservices architectural style is becoming the standard for building continuously deployed systems. 
+Because the size of each service is small, it allows the architecture of an individual service to emerge through continuous refactoring,
+hence reducing the need for a big upfront design and allows for releasing the software early and continuously.
+Scope of adoption
+Some articles in the DevOps literature assume, or recommend, significant participation in DevOps initiatives from outside an organization's IT department,
+"DevOps is just the agile principle, taken to the full enterprise."
+A survey published in January 2016 by the SaaS cloud-computing company RightScale, DevOps adoption increased from 66 percent in 2015 to 74 percent in 2016. 
+And among larger enterprise organizations, DevOps adoption is even higher — 81 percent.
+Adoption of DevOps is being driven by many factors — including:
+Use of agile and other development processes and methods;
+Demand for an increased rate of production releases — from application and business unit stakeholders;
+Wide availability of virtualized and cloud infrastructure — from internal and external providers;
+Increased usage of data center automation and configuration management tools;
+Increased focus on test automation and continuous integration methods;
+A critical mass of publicly–available best practices.
+DevOps Transformation - the process of transforming and adapting a software development methodology in accordance with Agile development methods as opposed 
+to the older Waterfall technique. Thanks to this transformation, development and operations teams are no longer siloed and are often merged into a single unit 
+where development and operations teams work across the entire application cycle enabling efficient DevOps processes.
+
